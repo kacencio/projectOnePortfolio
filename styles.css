@@ -74,6 +74,11 @@ a {
     
 }
 
+#gif {
+position: fixed;
+}
+
+
 h1 {
     margin: 20px 5% 10px; 
     text-align: center; 
