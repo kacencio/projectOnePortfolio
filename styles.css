@@ -16,14 +16,17 @@
 body {
     background-color: rgb(244, 246, 221);
     color: #333; 
-    background-image: linear-gradient(to bottom, #0c0064, #ffa8a8c8);
+    background-image: linear-gradient(to bottom, #2f653b, #ff5f5fc8);
+    
 }
 
 nav {
     text-align: center;
-    padding-bottom: 5vh;
-    padding-top: 4vh;
+    padding-bottom: 2.5vh;
+    padding-top: 2vh;
     background-color: #f6efdd; 
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 html {
@@ -35,12 +38,23 @@ a {
     font-size: 30px;
     margin: 0 5px; 
     text-decoration: none;
-    color: #000782;
+    color: #0e540e;
     font-weight: bold;
 }
 
+#biowhole {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center; 
+    gap: 30px; 
+    margin-top: 200px;
+}
+
 #pic {
-text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .circle {
@@ -48,14 +62,15 @@ text-align: center;
     object-fit: cover;
     width: 230px;
     height: 230px;
+    border: solid 5px beige;
 }
-#bio {
-text-align: justify;
-width: 60%;
-margin: 40px auto;
 
-padding: 3vh;
-background-color: #f6efdd;
+#bio {
+    text-align: justify;
+    width: 40%; 
+    border-radius: 20px;
+    padding: 3vh;
+    background-color: #f6efdd;
 }
 
 h1 {
@@ -78,3 +93,4 @@ footer a {
 footer a:hover {
     color: #BFAE8A; 
 }
+
