@@ -71,12 +71,13 @@ a {
     border-radius: 20px;
     padding: 3vh;
     background-color: #f6efdd;
+    
 }
 
 h1 {
     margin: 20px 5% 10px; 
     text-align: center; 
-    color: #1D2D50; 
+    color: #0e540e;
 }
 
 p {
