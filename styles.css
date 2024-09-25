@@ -27,6 +27,7 @@ nav {
     background-color: #f6efdd; 
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    
 }
 
 html {
@@ -40,6 +41,7 @@ a {
     text-decoration: none;
     color: #0e540e;
     font-weight: bold;
+    
 }
 
 #biowhole {
@@ -76,13 +78,16 @@ a {
 
 #gif {
 position: fixed;
+translate: 0 -80px;
 }
 
 
 h1 {
     margin: 20px 5% 10px; 
     text-align: center; 
-    color: #0e540e;
+    background-color: #0e540e;
+    padding: 10px 10px;
+    border-radius: 20px;
 }
 
 p {
@@ -100,3 +105,23 @@ footer a:hover {
     color: #BFAE8A; 
 }
 
+.list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center; 
+    gap: 30px; 
+    margin-right: 10vh;
+    margin-left: 10vh;
+    border-radius: 20px;
+    background-color: #f6efdd;
+}
+
+.child {
+    text-align: justify;
+    width: 40%; 
+    border-radius: 20px;
+    padding: 50px;
+    text-align: center;
+}
