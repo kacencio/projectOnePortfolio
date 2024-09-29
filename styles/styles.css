@@ -93,10 +93,18 @@ height: 100px;
 width: auto;
 }
 
+#gif2 {
+    float: right;
+    translate: -100px 100px;
+    max-height: 40vh;
+    width: auto;
+}
+
 #bottombio {
     background-color: #e9dbb9;
-    padding-bottom: 50vh;
+    padding-bottom: 55vh;
     border-top-left-radius: 100%;
+    margin-left: 100vh;
 }
 
 
@@ -145,3 +153,4 @@ max-width: 50px;
     max-height: 200px;
     border-radius: 20px;
 }
+
