@@ -30,7 +30,7 @@ nav {
     min-height: 100%;
 }
 
-a {
+nav a {
     padding: 10px 3.75%; 
     font-size: 30px;
     margin: 0 5px; 
@@ -104,35 +104,6 @@ p {
     color: #333; 
 }
 
-footer a {
-    color: #EAE4D5; 
-    font-weight: bold; 
-}
-
-footer a:hover {
-    color: #BFAE8A; 
-}
-
-.list {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center; 
-    align-items: center; 
-    gap: 30px; 
-    margin-right: 10vh;
-    margin-left: 10vh;
-    border-radius: 20px;
-    background-color: #f6efdd;
-}
-
-.child {
-    text-align: justify;
-    width: 40%; 
-    border-radius: 20px;
-    padding: 50px;
-    text-align: center;
-}
 
 .onpage {
     background-color: #0e540e;

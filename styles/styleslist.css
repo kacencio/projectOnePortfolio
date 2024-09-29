@@ -1,0 +1,85 @@
+@font-face {
+    font-family: Fraunces;
+    src: url("../fonts/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Fraunces;
+}
+
+body {
+    background-image: radial-gradient(circle, #2f653b, #587136, #817b37, #ab8244, #d3885d, #d3885d, #d3885d, #d3885d, #ab8244, #817b37, #587136, #2f653b);
+}
+
+nav {
+    text-align: center;
+    padding-bottom: 2.5vh;
+    padding-top: 2.5vh;
+    background-color: #461919;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-transform: lowercase;
+}
+
+nav a {
+    padding: 10px 3.75%;
+    font-size: 30px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #0e540e;
+    font-weight: bold;
+    background-color: #f6efdd;
+    border-radius: 20px;
+}
+
+h2 {
+    background-color: #0e540e;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    color: #f6efdd;
+}
+
+.onpage {
+    background-color: #0e540e;
+    color: #f6efdd;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border-radius: 20px;
+
+    max-width: 90%; 
+    margin: 20px auto; 
+    padding: 20px; 
+}
+
+.child {
+    text-align: justify;
+    max-width: 800px; 
+    border-radius: 20px;
+    padding: 30px 75px; 
+    background-color: #f6efdd;
+    margin-bottom: 100px;
+}
+
+.listitem {
+    background-color: transparent;
+    text-decoration: none;
+    color: #0e540e;
+    font-weight: bold;
+}
+
+.listimg {
+    max-width: 100%; 
+    border-radius: 20px;
+}
