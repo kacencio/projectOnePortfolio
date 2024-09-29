@@ -44,6 +44,14 @@ h2 {
     color: #f6efdd;
 }
 
+h3 {
+    padding-top: 10px;
+}
+
+p {
+    padding-bottom: 30px;
+}
+
 .onpage {
     background-color: #0e540e;
     color: #f6efdd;
@@ -82,4 +90,12 @@ h2 {
 .listimg {
     max-width: 100%; 
     border-radius: 20px;
+}
+
+ol {
+    padding-top: 10px;
+}
+
+ul {
+    padding-top: 10px;
 }

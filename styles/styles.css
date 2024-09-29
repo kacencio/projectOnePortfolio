@@ -43,6 +43,16 @@ nav a {
     
 }
 
+a {
+    padding: 10px 3.75%; 
+    font-size: 30px;
+    margin: 0 5px; 
+    text-decoration: none;
+    color: #0e540e;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
 #biowhole {
     display: flex;
     flex-direction: row;
