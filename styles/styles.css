@@ -138,3 +138,9 @@ footer a:hover {
     background-color: #0e540e;
     color: #f6efdd;
 }
+
+#contacts {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
