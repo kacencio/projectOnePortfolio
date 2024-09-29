@@ -20,7 +20,7 @@ nav {
     text-align: center;
     padding-bottom: 2.5vh;
     padding-top: 2.5vh;
-    background-color: #461919; 
+    background-color: #180e0e; 
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     text-transform: lowercase;
@@ -81,6 +81,8 @@ a {
     width: 40%; 
     border-radius: 20px;
     padding: 3vh;
+    margin-bottom: -100px;
+    margin-top: -90px;
     background-color: #f6efdd;
 }
 
@@ -91,7 +93,7 @@ translate: 0 -15vh;
 
 #bottombio {
     background-color: #f6efdd;
-    padding-bottom: 100vh;
+    padding-bottom: 50vh;
     border-top-left-radius: 100%;
 }
 
@@ -124,4 +126,20 @@ p {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+
+
+
+#star1 {
+max-width: 50px;
+}
+#star2 {
+ max-width: 150px;
+ float: right;
+    }
+
+#kctn {
+    max-height: 200px;
+    border-radius: 20px;
 }
