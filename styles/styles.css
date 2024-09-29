@@ -23,11 +23,11 @@ body {
 nav {
     text-align: center;
     padding-bottom: 2.5vh;
-    padding-top: 2vh;
-    background-color: #f6efdd; 
+    padding-top: 2.5vh;
+    background-color: #461919; 
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    
+    text-transform: lowercase;
 }
 
 html {
@@ -35,12 +35,15 @@ html {
 }
 
 a {
-    padding: 10px 5%; 
+    padding: 10px 3.75%; 
     font-size: 30px;
     margin: 0 5px; 
     text-decoration: none;
     color: #0e540e;
     font-weight: bold;
+    background-color: #f6efdd;
+    border-radius: 20px;
+    
     
 }
 
@@ -51,7 +54,8 @@ a {
     justify-content: center; 
     align-items: center; 
     gap: 30px; 
-    margin-top: 200px;
+    margin-top: 100px;
+    margin-bottom: 200px;
 }
 
 #pic {
@@ -64,7 +68,7 @@ a {
     object-fit: cover;
     width: 230px;
     height: 230px;
-    border: solid 5px beige;
+    border: solid 5px #f6efdd;
 }
 
 #bio {
@@ -73,7 +77,6 @@ a {
     border-radius: 20px;
     padding: 3vh;
     background-color: #f6efdd;
-    margin-top: -12vh;
     
 }
 
@@ -82,9 +85,16 @@ position: fixed;
 translate: 0 -80px;
 }
 
+#bottombio {
+    background-color: #f6efdd;
+    padding-bottom: 100vh;
+}
+
+
 
 h1 {
     margin: 20px 5% 10px; 
+    font-size: 30px;
     text-align: center; 
     background-color: #0e540e;
     padding: 10px 10px;
@@ -125,4 +135,9 @@ footer a:hover {
     border-radius: 20px;
     padding: 50px;
     text-align: center;
+}
+
+.onpage {
+    background-color: #0e540e;
+    color: #f6efdd;
 }
