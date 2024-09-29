@@ -88,7 +88,9 @@ a {
 
 #gif {
 position: fixed;
-translate: 0 -15vh;
+bottom: -2%;
+height: 100px;
+width: auto;
 }
 
 #bottombio {
