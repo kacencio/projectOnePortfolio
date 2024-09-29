@@ -31,7 +31,7 @@ nav a {
     text-decoration: none;
     color: #0e540e;
     font-weight: bold;
-    background-color: #f6efdd;
+    background-color: #e9dbb9;
     border-radius: 20px;
 }
 
@@ -41,7 +41,7 @@ h2 {
     padding: 10px 0px;
     border-radius: 20px;
     margin-bottom: 10px;
-    color: #f6efdd;
+    color: #e5c2b8;
 }
 
 h3 {
@@ -54,7 +54,7 @@ p {
 
 .onpage {
     background-color: #0e540e;
-    color: #f6efdd;
+    color: #e5c2b8;
 }
 
 .list {
@@ -76,7 +76,7 @@ p {
     max-width: 800px; 
     border-radius: 20px;
     padding: 30px 75px; 
-    background-color: #f6efdd;
+    background-color: #e9dbb9;
     margin-bottom: 100px;
 }
 

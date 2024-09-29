@@ -37,7 +37,7 @@ nav a {
     text-decoration: none;
     color: #0e540e;
     font-weight: bold;
-    background-color: #f6efdd;
+    background-color: #e9dbb9;
     border-radius: 20px;
     
     
@@ -83,7 +83,7 @@ a {
     padding: 3vh;
     margin-bottom: -100px;
     margin-top: -90px;
-    background-color: #f6efdd;
+    background-color:#e9dbb9;
 }
 
 #gif {
@@ -94,7 +94,7 @@ width: auto;
 }
 
 #bottombio {
-    background-color: #f6efdd;
+    background-color: #e9dbb9;
     padding-bottom: 50vh;
     border-top-left-radius: 100%;
 }
@@ -106,7 +106,7 @@ h1 {
     font-size: 30px;
     text-align: center; 
     background-color: #0e540e;
-    color: #f6efdd;
+    color: #e5c2b8;
     padding: 10px 10px;
     border-radius: 20px;
     text-transform: lowercase;
@@ -121,7 +121,7 @@ p {
 
 .onpage {
     background-color: #0e540e;
-    color: #f6efdd;
+    color: #e5c2b8;
 }
 
 #contacts {
