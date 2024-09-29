@@ -1,6 +1,6 @@
 @font-face {
     font-family: Fraunces;
-    src: url("fonts/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf");
+    src: url("/fonts/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf");
  }
 
 * {
@@ -11,13 +11,9 @@
     font-family: Fraunces;
 }
 
-
-
 body {
-    background-color: rgb(244, 246, 221);
-    color: #333; 
-    background-image: linear-gradient(to bottom, #2f653b, #ff5f5fc8);
-    
+    background-image: radial-gradient(circle, #2f653b, #587136, #817b37, #ab8244, #d3885d, #d3885d, #d3885d, #d3885d, #ab8244, #817b37, #587136, #2f653b);
+
 }
 
 nav {
@@ -30,8 +26,8 @@ nav {
     text-transform: lowercase;
 }
 
-html {
-    height: 100%;
+.gradientadjust {
+    min-height: 100%;
 }
 
 a {
@@ -68,7 +64,6 @@ a {
     object-fit: cover;
     width: 230px;
     height: 230px;
-    border: solid 5px #f6efdd;
 }
 
 #bio {
@@ -77,17 +72,17 @@ a {
     border-radius: 20px;
     padding: 3vh;
     background-color: #f6efdd;
-    
 }
 
 #gif {
 position: fixed;
-translate: 0 -80px;
+translate: 0 -15vh;
 }
 
 #bottombio {
     background-color: #f6efdd;
     padding-bottom: 100vh;
+    border-top-left-radius: 100%;
 }
 
 
@@ -97,8 +92,10 @@ h1 {
     font-size: 30px;
     text-align: center; 
     background-color: #0e540e;
+    color: #f6efdd;
     padding: 10px 10px;
     border-radius: 20px;
+    text-transform: lowercase;
 }
 
 p {
